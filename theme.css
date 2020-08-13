@@ -14,7 +14,18 @@ body{
     background: #09161d;
 }
 
-.card {
+.card1 {
+    z-index: 1;
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 {
     z-index: 1;
     position: relative;
     width: 320px;
